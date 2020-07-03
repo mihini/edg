@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  flex-direction: column;
+
+  &__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__label {
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    line-height: 24px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+
+}

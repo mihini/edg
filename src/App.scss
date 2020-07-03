@@ -1,0 +1,11 @@
+@import "./styles/mixins.scss";
+
+.App {
+  text-align: center;
+  margin: 20px;
+
+  @include breakpoint(desktop) {
+    max-width: 1024px;
+    margin: 100px auto;
+  }
+}
